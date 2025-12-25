@@ -129,6 +129,12 @@ nav a {
     padding: 60px 20px;
     text-align: center;
 }
+.about {
+    background-color: #fde2e4;   /* light pink */
+    color: #333;                /* text color */
+    padding: 60px 20px;
+}
+
 
 .about h2,
 .contact h2 {
@@ -229,6 +235,55 @@ footer {
     object-fit: cover;
     display: block;
 }
+footer {
+    background-color: #f8c8dc;
+    color: #333;
+    padding: 30px 20px 10px 20px;
+    text-align: center;
+    font-family: 'Miniver', cursive;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #ff69b4;
+}
+
+.footer-contact p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 5px;
+}
+
+.footer-social a:hover {
+    color: #ff69b4;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
 
 
 
