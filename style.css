@@ -1,0 +1,242 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-family: 'Miniver', cursive;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+
+/* HEADER */
+header {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #f8c8dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+/* HERO SECTION */
+.hero {
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://images.unsplash.com/photo-1490750967868-88aa4486c946");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* PRODUCTS SECTION */
+.products {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* FULL-WIDTH IMAGE GRID */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+    gap: 0;
+}
+
+/* PRODUCT CARD */
+.product {
+    width: 100%;
+    text-align: center;
+}
+
+/* IMAGE FULL WIDTH + CENTER */
+.product img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* PRODUCT TEXT */
+.product h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 20px;
+}
+
+.product button {
+    margin: 15px 0 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ABOUT & CONTACT */
+.about,
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2,
+.contact h2 {
+    font-size: 36px;
+}
+
+.about p {
+    font-size: 22px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* CONTACT FORM */
+.contact form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+/* FOOTER */
+footer {
+    background-color: #f8c8dc;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+.wedding-bouquet {
+    width: 100%;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.wedding-bouquet img {
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 30px auto;
+}
+
+.wedding-bouquet p {
+    max-width: 900px;
+    margin: auto;
+    font-size: 22px;
+
+}
+/* HERO SECTION */
+.hero {
+    width: 100%;
+    height: 70vh;
+   background-image:);
+);
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.wedding-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.wedding-hero * {
+    position: relative;
+}
+.wedding-gallery {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.wedding-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* ONLY 2 IMAGES PER ROW */
+    gap: 10px;
+    width: 100%;
+}
+
+.wedding-grid img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+    
