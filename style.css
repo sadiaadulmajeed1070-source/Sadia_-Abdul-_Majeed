@@ -9,7 +9,7 @@
 body {
     font-family: 'Miniver', cursive;
     background-color: #ffffff;
-    color: #333;
+    color: #020202ff;
 }
 
 
@@ -32,7 +32,7 @@ header {
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: #333;
+    color: #a5238fff;
     font-size: 18px;
 }
 
@@ -76,7 +76,7 @@ nav a {
 }
 
 .products h2 {
-    font-size: 36px;
+    font-size: 65px;
     margin-bottom: 30px;
 }
 
@@ -194,8 +194,8 @@ footer {
 .hero {
     width: 100%;
     height: 70vh;
-   background-image:);
-);
+   
+
 
     background-size: cover;
     background-position: center;
@@ -205,6 +205,7 @@ footer {
     align-items: center;
     text-align: center;
     color: white;
+    
 }
 .wedding-hero::before {
     content: "";
@@ -212,6 +213,11 @@ footer {
     inset: 0;
     background: rgba(0, 0, 0, 0.4);
 }
+.wedding-gallery-title {
+  font-size: 50px; 
+  font-weight: 600;
+}
+
 
 .wedding-hero * {
     position: relative;
@@ -219,6 +225,7 @@ footer {
 .wedding-gallery {
     width: 100%;
     padding: 40px 0;
+    font size: 80px;
     text-align: center;
 }
 
@@ -240,7 +247,7 @@ footer {
     color: #333;
     padding: 30px 20px 10px 20px;
     text-align: center;
-    font-family: 'Miniver', cursive;
+    font-family: 'Miniver',  cursive;
 }
 
 .footer-container {
@@ -283,6 +290,48 @@ footer {
     margin-top: 20px;
     font-size: 16px;
 }
+.send-message-btn {
+  background-color:  #ff69b4;
+} !important;
+  color: white !important;
+  padding: 12px 30px;
+  border: none !important;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+
+
+.send-message-btn:hover {
+  background-color: #ff69b4;!important;
+
+}
+.send-message-btn {
+  background: linear-gradient(135deg, #ff69b4 , #dd69e7ff);
+  color: #ffffff;
+  padding: 14px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 0 10px 25px rgba(255, 182, 193, 1);
+}
+  transition: all 0.3s ease;
+
+
+.send-message-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 30px rgba(255, 182, 193, 1);
+}
+
+.send-message-btn:active {
+  transform: scale(0.95);
+}
+
+
+
 
 
 
